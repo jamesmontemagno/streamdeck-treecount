@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "images/actionIcon",
-      "Name": "MyPluginAction",
+      "Name": "Tree Counter",
       "States": [
         {
           "Image": "images/actionDefaultImage",
@@ -12,33 +12,33 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "The first action for the MyPlugin Stream Deck plugin",
-      "UUID": "com.yourcompany.plugin.action.MyPluginAction",
+      "UUID": "com.refractored.plugin.action.TreeCounterAction",
       "PropertyInspectorPath": "property_inspector/property_inspector.html"
     }
   ],
-	"Category": "Your Plugin Category",
-	"CategoryIcon": "images/category/categoryIcon.png",
-	"Disabled":  false,
-	"Author": "Your Name",
-	"CodePathWin": "TestPlugin.exe",
-	"CodePathMac":  "TestPlugin",
-  "Description": "Description of MyPlugin.",
-  "Name": "MyPlugin",
+  "Category": "Tree Counter",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Refractored LLC",
+  "CodePathWin": "TreeCounterPlugin.exe",
+  "CodePathMac": "TreeCounterPlugin",
+  "Description": "Description of TreeCounterPlugin.",
+  "Name": "TreeCounterPlugin",
   "Icon": "images/pluginIcon",
   "URL": "https://www.elgato.com/gaming/stream-deck",
   "Version": "1.0",
-	"SDKVersion": 2,
-	"Software": {
-		"MinimumVersion":  "4.1"
-	},
-	"OS": [
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
     {
-        "Platform": "mac",
-        "MinimumVersion" : "10.11"
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
     },
     {
-        "Platform": "windows",
-        "MinimumVersion" : "10"
+      "Platform": "windows",
+      "MinimumVersion": "10"
     }
   ]
 }

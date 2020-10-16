@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestPlugin": {
+      "commandName": "Project",
+      "commandLineArgs": "--break"
+    }
+  }
+}
